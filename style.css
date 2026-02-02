@@ -2,5 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: cursorreg;
+    
 }
+
+@font-face {
+    font-family: cursorreg;
+    src: url(./fonts/CursorGothic_Regular-s.p.a361088d.woff2);
+}
+
+@font-face {
+    font-family: cursorbold;
+    src: url(./fonts/CursorGothic_Bold-s.p.95169710.woff2);
+}
+
+
 
