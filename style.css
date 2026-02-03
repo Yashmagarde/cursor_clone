@@ -3,8 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: cursorreg;
+    color: #EDECEC;
     
 }
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Fonts for web added */
 
 @font-face {
     font-family: cursorreg;
@@ -16,5 +24,129 @@
     src: url(./fonts/CursorGothic_Bold-s.p.95169710.woff2);
 }
 
+/* header design */
+
+header{
+    background-color: #14120B;
+    width: 100%;
+    height:52px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
+}
 
 
+header svg{
+    height: 24px;
+}
+
+/* Nav Design */
+
+nav ul{
+
+padding: 0px 0px 0px 38px;
+display: flex;
+list-style-type: none;
+align-items: center;
+justify-content: center;
+gap: 25px;
+}
+
+nav a{
+text-decoration: none;
+font-size: 14px;
+}
+
+/* header buttons */
+
+header div a{
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #ffffff70;
+    padding: 4px 12px;
+    border-radius: 15px;
+}
+
+header div a:nth-child(2){
+    background-color: #EDECEC;
+    color:#14120B ;
+}
+
+/* main tag design */
+
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*Hero section css*/
+
+#herosection{
+    width: 100%;
+    height: 125%;
+    background-color: #14120B;
+    overflow: hidden;
+    position: relative;
+}
+
+#herosection h1{
+    font-weight: 100;
+    font-size: 25.5px;
+    margin: 110px 0px 0px 140px;
+}
+
+/* #herosection a{
+    display: inline-block;
+} */
+
+.btn{
+    text-decoration: none;
+    background-color: #EDECEC;
+    color: #14120B;
+    padding: 11px 21px;
+    border-radius: 30px;
+    display: inline-block;
+    margin:20px 0px 0px 140px ;
+}
+
+#herosection i{
+    color:#14120B;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+#herosection div{
+    text-align: center;
+    width: 82%;
+    margin-top: 70px;
+    height:65% ;
+    background-color: wheat;
+    transform: translate(-50%,0%);
+    position: absolute;
+    left: 50%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#herosection img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#midsection{
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+
+}
+
+/* @media (min-width:1000px) {
+    main{
+        background-color: #14120B;
+        padding:0% 10%;
+    }
+} */
